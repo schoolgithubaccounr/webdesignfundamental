@@ -1,109 +1,128 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Greek Art</title>
-        <meta name = "viewport" content="width-device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <html lang = "en">
+    <head>
+      <title>Greek Art</title>
+      <meta charset="UTF-8">
+      <meta name = "viewport" content="width-device-width, initial-scale=1.0">
+      <meta name="description" content="History and facts about Anchient Greece">
+      <meta name="keywords" content="Greece, Greek Art, Greek Philosophy, Culture">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        
-        <link rel="stylesheet" href="stylesheet/StyleSheet.css">
-        <link rel="icon" href="Images/favicon.ico" type="icon/gif">
+      <link rel="stylesheet" href="stylesheet/StyleSheet.css">
+      <link rel="icon" href="Images/favicon.ico" type="icon/gif">
+    </head>
+  <body>
     
-
-    
-</head>
-<body>
-    
-      <header>
-        <h1>Art of Greece</h1>
-      </header>
+  <header>
+    <div id="topanchor"></div>
+    <h1>Art of Greece</h1>
+  </header>
       
-      <nav>
-        <a href="index.html">Home </a>
-        <a href="page1.html">Greek Art </a>
-        <a href="page2.html">Philosophy</a>
-        </nav>
+  <nav>
+    <a href="index.html">Home </a>
+    <a href="page1.html" class="activepage">Greek Art </a>
+    <a href="page2.html">Philosophy</a>
+    <a href="page3.html">Athens</a>
+  </nav>
       
-        <div class="title">
-          <h1>Statues</h1>
+    <main>
+      <div class="title">
+        <h1>Statues</h1>
+      </div>
+      <p>
+        The greeks were well known for their art, focusing mainly on pottery, statues and metalwork. The greeks would focus on natural but idealized versions of the body,
+        depictimg mainly men.
+        The Greeks decided very early on that the human form was the most important subject for artistic endeavour. 
+        Seeing their gods as having human form, there was little distinction between the sacred and the secular in art—the human body was both secular and sacred.<br><br>
+      </p>
+          
 
+       
+  <div id="animationpadding">
+
+    <img id="image" src="Images/ldyofAuxerre.png" alt="lady of Auxerre" style="width:80%; height: 20%;">
+
+    <p>The sculpture of ancient Greece is the main surviving type of fine ancient Greek art. Modern scholarship identifies three major stages in monumental sculpture in 
+      bronze and stone: the Archaic, Classical and Hellenistic. At all periods there were great numbers of Greek terracotta figurines and small sculptures in metal 
+      and other materials. <br> By the classical period most sculptures were composed almost entirely of marble or bronze
+    </p>
+
+          
+    <script>
+      var imageSources = ["Images/ldyofAuxerre.png","Images/sacredGateKouros.png","Images/moschophoros.png", "Images/kleobisandBiton.png"]
+      
+      var index = 0;
+        setInterval(
+          function()
+          {
+            if (index === imageSources.length) 
+            {
+              index = 0;
+            }
+            document.getElementById("image").src = imageSources[index];
+            index++;
+          }, 2000);
+    </script>
+
+  </div>
+
+  </main>
+    
+  <section>
+    <div class="contentborder">
+
+      <div class="subheading">
+      <h3>Pottery</h3>
         </div>
 
-        <main>
-          <p>
-            The greeks were well known for their art, focusing mainly on pottery, statues and metalwork. The greeks would focus on natural but idealized versions of the body,
-            depictimg mainly nude men.
-            The Greeks decided very early on that the human form was the most important subject for artistic endeavour. 
-            Seeing their gods as having human form, there was little distinction between the sacred and the secular in art—the human body was both secular and sacred.
-            
-              
-          
-          </p>
-
-
-        
-
-
-
-        <div class="gallery">
-
-          
-            <img src="Images/ldyofAuxerre.png" alt="lady of Auxerre" width="600" height="400">
-          
-
-          <div class="contentborder">
-
-          <div class="desc">The Lady of Auxerre was found in a storage vault in the Museum of Auxerre and was discovered by a Louvre curator named Maxime Collignon in 1907. 
-            While no one knew how the statue came to be there, 
-            many scholars concur that The Lady of Auxerre represents Persephone, who was the daughter of the mythological being Demeter</div>
-          </div>
+      <div class="row">
+        <div class="column">
+          <img src="Images/GreekPot.jpg" alt="Greek Pot">
         </div>
-        
-        <div class="gallery">
-          
-            <img src="Images/kleobisandBiton.png" alt="kleobis and Biton" width="600" height="400">
-          
-            <div class="contentborder">
-          <div class="desc">These ancient Greek statues were found in Delphi in 1893 but originally came from Argos. 
-            The famous Greek statues are nude and identically crafted from Parian marble. Inscribed on the base of the statues is the name of the sculptor, Polymedes of Argos. 
-            There are two different interpretations of who the statues are meant to represent but both of them are rooted in Greek mythology.</div>
+
+        <div class="column" >
+          <img src="Images/Pot_Gnathia.jpg" alt="Gnathia Pot">
         </div>
+
+        <div class="column" >
+          <img src="Images/neptunePottery.jpg" alt="Neptune Pottery">
         </div>
-        
-        <div class="gallery">
-          
-            <img src="Images/moschophoros.png" alt="moschophoros" width="600" height="400">
-          
 
-          <div class="contentborder">
-
-          <div class="desc">This ancient Greek sculpture is also known as The Calf Bearer in English and was created in the Archaic period. 
-            It had been discovered in 1864 in the Acropolis of Athens and was reconstructed from fragments that were found during the Persian invasion, 
-            therefore, it is not in the best condition since both legs are missing from the knees down.</div>
-
-          </div>
+        <div class="column" >
+          <img src="Images/GreekPot.jpg" alt="GreekPot">
         </div>
+
+      </div>
+
+      <p>
+        Ancient Greek pottery stands as a testament to the artistic and cultural achievements of one of history's most influential civilizations. 
+        Crafted with meticulous attention to detail and imbued with symbolism, Greek pottery served both practical and aesthetic purposes. 
+        From the elegant curves of amphorae to the graceful lines of kylixes, each vessel tells a story of its own. 
+        Decorated with intricate patterns, mythological scenes, and everyday life depictions, these vessels offer invaluable insights into ancient Greek life, beliefs, and traditions. 
+        Whether used for storing wine, oil, or water, or as ceremonial offerings in religious rites, Greek pottery reflected the sophistication and creativity of its makers. 
+        Through the ages, these artifacts have captivated archaeologists, historians, and art enthusiasts alike, serving as windows into the rich tapestry of ancient Greek civilization.
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+  <footer>
+    <a href="#topanchor">back to top of the page</a>
+    
+    <p>&copy; 2024 Company Name. All rights reserved. </p>
         
-        <div class="gallery">
-          
-            <img src="Images/sacredGateKouros.png" alt="Sacred Gate Kouros" width="600" height="400">
-          
-
-          <div class="contentborder">
-          <div class="desc">This famous kouros was discovered in the ancient Kerameikos cemetery at a site known as the Sacred Gate in 2002. 
-            Unearthed by the German Archeological Institute, the cemetery was part of the potter’s corner of ancient Athens. 
-            The statue depicts a male figure that was used for marking graves and crafted from Naxian marble. Standing at just over two meters high, 
-            the Greek sculpture was found along with two lions made from marble, pillar fragments, and a sphinx.</div>
-          </div>
-        </div>
-        
-       </main>
-
-
-
-  
-        
+    <a href="page4.html">References</a>
+</footer>
 
 </body>
+
 </html>
